@@ -11,10 +11,10 @@ description: |
 
 ### 1. 检测服务状态
 
-检查 xiaohongshu-mcp 是否已在运行：
+检查 xiaohongshu-mcp 是否已在运行（注意：MCP 端点只接受 POST，GET 会返回 405，不能用 `-f` 判断）：
 
 ```bash
-curl -sf http://localhost:18060/mcp -o /dev/null && echo "running" || echo "not running"
+curl -so /dev/null http://localhost:18060/mcp && echo "running" || echo "not running"
 ```
 
 - 已运行 → 记录地址 `http://localhost:18060/mcp`，跳到步骤 3
