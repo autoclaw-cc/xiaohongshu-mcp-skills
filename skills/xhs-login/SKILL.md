@@ -51,5 +51,5 @@ xdg-open /tmp/xhs-qrcode.png  # Linux
 
 | 场景 | 处理 |
 |---|---|
+| MCP 工具不可用 | 引导用户使用 `/setup-xhs-mcp` 完成部署和连接配置 |
 | 二维码超时 | 重新调用 `get_login_qrcode` |
-| MCP 服务未启动 | 提示用户启动 xiaohongshu-mcp 服务 |
