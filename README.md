@@ -24,13 +24,7 @@
 
 ### OpenClaw
 
-```bash
-openclaw skills add https://github.com/autoclaw-cc/xiaohongshu-mcp-skills
-```
-
-或在 OpenClaw Control UI 的 Skills 标签页中，点击 "Add from URL"，粘贴本仓库地址即可。
-
-安装后 skills 会被放置到 `~/.openclaw/skills/xiaohongshu-mcp-skills/`，重启会话生效。
+下载本项目到本地后，解压到 OpenClaw 的 SKILLS 目录下重启会话生效。
 
 ### Claude Code
 
